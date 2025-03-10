@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import { motion } from 'framer-motion';
+import { FaLinkedin } from 'react-icons/fa'; // Import LinkedIn icon
 
 const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false); // Track form submission
@@ -40,14 +41,25 @@ const Contact = () => {
         <div 
           className="w-full md:w-1/2 h-1/3 md:h-full bg-gradient-to-t md:bg-gradient-to-r from-[#1c1c1c] to-[#2d2d2d] flex items-end md:items-center justify-center pb-8 md:pb-0" // Align bottom on mobile, center on desktop
         >
-          <motion.h2 
-            className="text-white text-5xl md:text-6xl font-bold font-balthazar"
+          <motion.div 
+            className="flex items-center space-x-4" // Flex container to align heading and icon
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Let's Connect
-          </motion.h2>
+            <h2 className="text-white text-5xl md:text-6xl font-bold font-balthazar">
+              Let's Connect
+            </h2>
+            {/* LinkedIn Icon with Link */}
+            <a 
+              href="https://www.linkedin.com/in/ted-rho-059bb1270/" // Replace with your LinkedIn profile URL
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#bd7afe] transition-colors duration-300 mt-1"
+            >
+              <FaLinkedin size={42} />
+            </a>
+          </motion.div>
         </div>
 
         {/* Bottom/Right Side - Background with Contact Form */}

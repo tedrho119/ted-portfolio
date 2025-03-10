@@ -1,0 +1,73 @@
+@media (min-width: 768px) and (min-height: 2160px) {
+    .rho {
+        top: 71vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 1440px) and (max-height: 2159px){
+    .rho {
+        top: 65vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 1280px) and (max-height: 1439px){
+    .rho {
+        top: 63vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 1124px) and (max-height: 1279px){
+    .rho {
+        top: 60vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 1024px) and (max-height: 1123px){
+    .rho {
+        top: 57vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 900px) and (max-height: 1023px){
+    .rho {
+        top: 53vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 800px) and (max-height: 899px){
+    .rho {
+        top: 50vh;
+    }
+}
+
+@media (min-width: 768px) and (min-height: 768px) and (max-height: 799px){
+    .rho {
+        top: 48vh;
+    }
+}
+
+/*mobile */
+
+@media (max-width: 767px) and (min-height: 845px) and (max-height: 1080px){
+    .rho {
+        top: 65vh;
+    }
+}
+
+@media (max-width: 767px) and (min-height: 800px) and (max-height: 844px){
+    .rho {
+        top: 63vh;
+    }
+}
+
+@media (max-width: 767px) and (min-height: 720px) and (max-height: 799px){
+    .rho {
+        top: 60vh;
+    }
+}
+
+@media (max-width: 767px) and (max-height: 720px){
+    .rho {
+        top: 57vh;
+    }
+}

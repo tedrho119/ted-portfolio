@@ -119,13 +119,12 @@ const Navbar = ({ activeSection }) => {
 
             {/* CONTACT Button */}
             <div className="relative">
-              <a
-                href="/contact"
+              <button
                 onClick={handleContactClick}
                 className="text-white font-balthazar text-lg uppercase cursor-pointer"
               >
                 CONTACT
-              </a>
+              </button>
               {activeSection === 4 && (
                 <motion.div
                   className="absolute bottom-0 left-0 w-full h-[2px] bg-white"

@@ -20,8 +20,8 @@ This is a portfolio website made with React via Vite.
 - Typography - big bold and capitalized
 - CMD UI that matches well with my profession
 
-  # Reference
-  - Laptop photo by Blake Connally (https://unsplash.com/photos/macbook-pro-inside-gray-room-B3l0g6HLxr8)
+# Reference
+- Laptop photo by Blake Connally (https://unsplash.com/photos/macbook-pro-inside-gray-room-B3l0g6HLxr8)
 
 
 This is my first proper website using React. I have a lot of experience with React Native so I enjoyed a lot making it. 

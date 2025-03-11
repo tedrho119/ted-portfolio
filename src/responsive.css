@@ -46,9 +46,15 @@
     }
 }
 
+@media (min-width: 768px) and (max-height: 767px){
+    .rho {
+        top: 48vh;
+    }
+}
+
 /*mobile */
 
-@media (max-width: 767px) and (min-height: 845px) and (max-height: 1080px){
+@media (max-width: 767px) and (min-height: 845px){
     .rho {
         top: 65vh;
     }

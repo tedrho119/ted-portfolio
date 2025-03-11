@@ -1,4 +1,5 @@
 This is a portfolio website made with React via Vite.
+Fully functional website : https://tedrho119.github.io/ted-portfolio/
 
 # Dependencies
 - Tailwindcss
